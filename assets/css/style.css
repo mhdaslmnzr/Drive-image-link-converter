@@ -1,0 +1,59 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: rgb(255, 255, 255);
+}
+
+p {
+  display: block;
+  font-size: 14px;
+}
+
+ul{
+  list-style-type: decimal;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+label {
+  margin-right: 6px;
+  font-weight: 700;
+}
+
+input {
+  width: 80%;
+  border: none;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+input:focus{
+  outline: none;  
+}
+
+button{
+  font-weight: 500;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 1em;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  width:50em;
+  height:15em;
+  margin-top: -7.5em; /*set to a negative number 1/2 of your height*/
+  margin-left: -25em; /*set to a negative number 1/2 of your width*/
+  background-color: #f3f3f3;
+  border-radius: 4px;
+  -webkit-box-shadow: 31px 24px 5px 8px rgba(0,0,0,0.58);
+  -moz-box-shadow: 31px 24px 5px 8px rgba(0,0,0,0.58);
+  box-shadow: 31px 24px 5px 8px rgba(0,0,0,0.58);
+}
